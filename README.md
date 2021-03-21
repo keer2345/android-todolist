@@ -8,3 +8,13 @@ Learn RecyclerView of Android
 ```
 git clone git@github.com:keer2345/android-todolist.git TodoList
 ```
+
+Add `kotlin-android-extensions` to `app/build.gradle`:
+```
+plugins {
+
+    // ...
+
+    id 'kotlin-android-extensions'
+}
+```
